@@ -1,0 +1,87 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+   font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 211, 154);
+    padding:20px;
+    box-shadow: 3px 3px 3px 3px rgb(9, 101, 83);
+    text-decoration-line: none;
+ 
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+ ul li a{
+    margin-right: 10px;
+    font-size: 22px;
+
+}
+ul i{
+    font-size: 20px;
+}
+ul{
+    margin-right: 45px;
+    margin-top: 7p;
+}
+nav .logo{
+    margin-left: 20px;
+}
+body{
+    background-color: rgb(170, 187, 249);
+
+}
+ul li a:hover{
+    cursor: pointer;
+}
+.blog:hover{
+    transition: 0.6s ease;
+    width: 520px;
+    height: 320px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: bisque;
+    margin-inline: 10px;
+    border-radius: 10px;
+}
+.blog img{
+    width: 55%;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.blogtext{
+    padding: 22px;
+    margin-top: 30px;
+}
+.card{
+    display: flex;
+    justify-content:space-around;
+}
+.trends h1{
+    text-align: center;
+    padding: 33px;
+    margin-top: 22px;
+    color: rgb(12, 76, 225);
+    text-decoration: underline;
+  
+}.footer{
+    display: flex;
+    justify-content: center;
+    padding: 33px;
+    background-color: blue;
+    box-shadow: 3px 3px 3px 3px rgb(12, 76, 225);
+}
+.footer .footertext{
+    margin-inline: 55px;
+   color: white;
+}
